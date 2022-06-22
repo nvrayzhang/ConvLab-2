@@ -14,7 +14,9 @@ def extract_act(data, counter):
                 continue
             action = ''
             if meta['dialog_act']:
+                print('-----------------------------------------------------------------------')
                 for act, slots in meta['dialog_act'].items():
+                    print("ACT:", act, "SLOTS:", slots)
                     for slot in slots:
                         action += f'{act}-'
                         if slot[1] == '?' or slot[0] == 'none':

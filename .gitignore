@@ -48,6 +48,7 @@ convlab2/nlu/milu/09*
 convlab2/nlu/jointBERT/multiwoz/configs/multiwoz_new_usr_context.json
 convlab2/nlu/milu/multiwoz/configs/system_without_context.jsonnet
 convlab2/nlu/milu/multiwoz/configs/user_without_context.jsonnet
+data/multiwoz/*.yaml
 
 # test script
 *_test.py
